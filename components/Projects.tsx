@@ -35,16 +35,6 @@ const colorMap = {
 };
 const projects: Project[] = [
   {
-    name: "Meetza",
-    url: "github.com/faridaemad/meetza",
-    description:
-      "All-in-one collaboration platform unifying meetings, chat, group management, and calendar scheduling, with dark/light themes and custom branding.",
-    stack: ["React.js", "Socket.io", "React Router", "Framer Motion"],
-    link: "https://meetza-front-end.vercel.app/",
-    color: "purple",
-    image: "/projects/meetza.png",
-  },
-  {
     name: "FreightPulse",
     url: "freight-pulse-frontend.vercel.app",
     description:
@@ -53,6 +43,26 @@ const projects: Project[] = [
     link: "https://freight-pulse-frontend.vercel.app",
     color: "blue",
     image: "/projects/FreightPulse.png",
+  },
+  {
+    name: "Muscle Fire",
+    url: "musclefire",
+    description:
+      "Full stack e-commerce store for gym supplements — product catalog with categories and search, cart and checkout, user accounts, and order management.",
+    stack: ["React.js", "Python", "PostgreSQL", "JWT"],
+    link: "#",
+    color: "teal",
+    image: "/projects/musclefire.png",
+  },
+  {
+    name: "Meetza",
+    url: "github.com/faridaemad/meetza",
+    description:
+      "All-in-one collaboration platform unifying meetings, chat, group management, and calendar scheduling, with dark/light themes and custom branding.",
+    stack: ["React.js", "Socket.io", "React Router", "Framer Motion"],
+    link: "https://meetza-front-end.vercel.app/",
+    color: "purple",
+    image: "/projects/meetza.png",
   },
   {
     name: "Qwizzy",

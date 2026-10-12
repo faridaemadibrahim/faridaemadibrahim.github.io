@@ -1,41 +1,94 @@
 type SkillGroup = {
   title: string;
-  color: "purple" | "pink" | "teal";
+  color: "purple" | "pink" | "teal" | "orange" | "blue";
   items: string[];
 };
 
 const groups: SkillGroup[] = [
   {
-    title: "Development Stack",
+    title: "Front-End",
     color: "purple",
     items: [
-      "React.js & Next.js",
+      "React.js",
+      "Next.js",
       "JavaScript (ES6+)",
+      "TypeScript",
       "HTML5 & CSS3",
-      "Bootstrap & Tailwind CSS",
-      "Responsive Web Design",
-      "RESTful API Integration",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Redux / Context API",
+      "React Router",
+      "Responsive Design",
+      "Cross-Browser Compatibility",
     ],
   },
   {
-    title: "Quality & Testing",
+    title: "Back-End",
     color: "pink",
     items: [
-      "Manual & Functional Testing",
-      "UI/UX Testing",
-      "Test Case Design",
-      "Bug Tracking & Regression",
+      "Node.js",
+      "Express.js",
+      "RESTful API Design & Integration",
+      "Authentication & Authorization (JWT, bcrypt)",
+      "MVC Architecture",
+      "Middleware & Error Handling",
+      "Real-time (Socket.io / WebSockets)",
     ],
   },
   {
-    title: "Engineering Tools",
+    title: "Databases",
     color: "teal",
     items: [
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "Database Design & Normalization",
+      "ER Modeling",
+      "Joins, Indexing & Query Optimization",
+      "Prisma / Sequelize",
+    ],
+  },
+  {
+    title: "Tools & DevOps",
+    color: "orange",
+    items: [
       "Git & GitHub",
-      "VS Code & Chrome DevTools",
       "Postman",
+      "VS Code & Chrome DevTools",
+      "Docker (basics)",
+      "Vercel / Render",
       "Jira",
       "Figma",
+      "Agile / Scrum",
+    ],
+  },
+  {
+    title: "Testing & Quality",
+    color: "blue",
+    items: [
+      "Manual & Functional Testing",
+      "API Testing (Postman)",
+      "Test Case Design",
+      "Bug Tracking & Regression Testing",
+    ],
+  },
+  {
+    title: "Core CS",
+    color: "purple",
+    items: [
+      "Data Structures & Algorithms",
+      "OOP (Java, JavaScript)",
+      "Problem Solving",
+    ],
+  },
+  {
+    title: "Soft Skills",
+    color: "pink",
+    items: [
+      "Communication & Teamwork",
+      "Time Management & Adaptability",
+      "Attention to Detail",
+      "Fast Learning",
     ],
   },
 ];
@@ -55,6 +108,16 @@ const colorMap = {
     dot: "bg-teal",
     head: "text-teal",
     tag: "bg-teal/10 text-teal border-teal/20",
+  },
+  orange: {
+    dot: "bg-orange",
+    head: "text-orange",
+    tag: "bg-orange/10 text-orange border-orange/20",
+  },
+  blue: {
+    dot: "bg-blue",
+    head: "text-blue",
+    tag: "bg-blue/10 text-blue border-blue/20",
   },
 };
 

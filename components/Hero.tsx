@@ -37,13 +37,13 @@ export default function Hero() {
             Farida Emad
           </h1>
           <p className="mt-2 text-2xl font-semibold bg-gradient-to-r from-purple via-pink to-orange bg-clip-text text-transparent">
-            Front-End Developer
+            Full Stack Developer
           </p>
 
           <p className="mt-5 text-[15px] text-ink-soft max-w-md leading-relaxed">
-            Specialized in crafting responsive, high-performance, and fully
-            optimized user interfaces. Combining pixel-perfect React.js/Next.js
-            execution with robust UI/UX and functional testing principles.
+            Designing, building, and shipping end-to-end web applications — from
+            fast, accessible React.js/Next.js interfaces to secure, scalable
+            Node.js/Express APIs and PostgreSQL/MySQL databases.
           </p>
 
           <div className="mt-8 flex gap-3.5">
@@ -82,7 +82,7 @@ export default function Hero() {
             </div>
             <div className="pl-4">
               <span className="text-blue">role</span>:{" "}
-              <span className="text-teal">&quot;Front-End Developer&quot;</span>
+              <span className="text-teal">&quot;Full Stack Developer&quot;</span>
               ,
             </div>
             <div className="pl-4">
@@ -93,7 +93,8 @@ export default function Hero() {
               <span className="text-blue">techStack</span>: [
               <span className="text-teal">&quot;React.js&quot;</span>,{" "}
               <span className="text-teal">&quot;Next.js&quot;</span>,{" "}
-              <span className="text-teal">&quot;Tailwind&quot;</span>],
+              <span className="text-teal">&quot;Node.js&quot;</span>,{" "}
+              <span className="text-teal">&quot;PostgreSQL&quot;</span>],
             </div>
             <div className="pl-4">
               <span className="text-blue">philosophy</span>:{" "}

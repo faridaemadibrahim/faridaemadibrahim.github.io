@@ -1,5 +1,18 @@
 const experience = [
   {
+    role: "Software Developer",
+    company: "Royal Wells Alliance (RWA) for Petroleum Services",
+    period: "Present",
+    color: "teal",
+    points: [
+      "Developing and maintaining full stack internal web applications using React.js / Next.js on the front end and Node.js / Express.js on the back end.",
+      "Designing and implementing RESTful APIs and relational database schemas (PostgreSQL / MySQL) to digitize and streamline operational workflows.",
+      "Building secure authentication and role-based access control (JWT) for internal users and departments.",
+      "Writing optimized SQL queries, handling data validation and error handling, and improving application performance and reliability.",
+      "Collaborating with stakeholders to gather requirements and translate business needs into practical technical solutions.",
+    ],
+  },
+  {
     role: "Front-End Developer Intern",
     company: "Infinity X Solutions",
     period: "Present",
@@ -24,6 +37,7 @@ const experience = [
 ];
 
 const colorMap = {
+  teal: { dot: "bg-teal", text: "text-teal" },
   purple: { dot: "bg-purple", text: "text-purple" },
   pink: { dot: "bg-pink", text: "text-pink" },
 };
@@ -40,14 +54,21 @@ export default function About() {
 
       <div className="grid md:grid-cols-2 gap-10 mb-16 text-[15px] text-ink-soft leading-relaxed">
         <p>
-          I am a Front-End Developer with over a year of experience building
-          responsive, user-friendly, high-performance web applications, backed
-          by a Computer Science foundation.
+          I am a Full Stack Developer with 1+ years of hands-on experience
+          designing, building, and shipping end-to-end web applications. On the
+          front end, I build fast, responsive, and accessible interfaces with
+          React.js, Next.js, JavaScript (ES6+), TypeScript, and Tailwind CSS. On
+          the back end, I develop secure and scalable RESTful APIs with Node.js
+          and Express.js, implement JWT-based authentication and role-based
+          access control, and design relational databases in PostgreSQL and
+          MySQL.
         </p>
         <p>
-          I specialize in the React.js and Next.js ecosystem — converting
-          mockups into fast, scalable, maintainable products through agile
-          collaboration and precise UI/UX alignment.
+          Comfortable owning a feature across the full stack, from database
+          schema and API design to UI implementation, testing, and deployment.
+          A collaborative team player experienced in Agile/Scrum environments,
+          code reviews, and Git-based workflows, with a strong focus on clean
+          architecture, performance, and maintainable code.
         </p>
       </div>
 

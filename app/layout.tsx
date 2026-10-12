@@ -13,8 +13,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Farida Emad — Front-End Developer",
-  description: "Portfolio of Farida Emad, front-end developer.",
+  title: "Farida Emad — Full Stack Developer",
+  description: "Portfolio of Farida Emad, full stack developer.",
 };
 
 export default function RootLayout({
